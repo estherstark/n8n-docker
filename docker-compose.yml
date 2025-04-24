@@ -5,7 +5,7 @@ services:
     image: n8nio/n8n
     restart: always
     ports:
-      - "5678:5678"
+      - "443:443"
     env_file:
       - .env
     volumes:
